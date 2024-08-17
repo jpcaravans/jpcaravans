@@ -51,13 +51,13 @@ import Link from 'next/link';
         initial={{ opaticity: 0, scale: 0.5}} 
         animate={{opacity: 1, scale: 1}} 
         transition={{duration: 0.5}}  className='col-span-4 place-self-center lg:mt-0'>
-    <     div className='w-[290px] h-[250px] mt-10 mb-10
+    <     div className='w-[320px] h-[250px] mt-12
             md:w-[280px] md:h-[400px] md:ml-12
             lg:w-[340px] lg:h-[400px] lg:ml-12
-            xl:w-[380px] xl:h-[400px] 
+            xl:w-[420px] xl:h-[400px] 
             relative'>
             <Image
-             src="https://firebasestorage.googleapis.com/v0/b/login-page-b381a.appspot.com/o/logo.jpg?alt=media&token=210aa10a-e7d4-4630-bdbf-ba868103fba5"
+             src="https://firebasestorage.googleapis.com/v0/b/login-page-b381a.appspot.com/o/logo1.png?alt=media&token=62b6063c-29a8-4c4b-8625-a37c791c082d"
              className="absolute rounded-3xl transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
              width={500}
              height={500}
