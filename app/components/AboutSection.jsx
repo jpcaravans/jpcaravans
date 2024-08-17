@@ -19,8 +19,7 @@ function AboutSection() {
         <br/>
         <br/>
         Wir, das sind Julian und Philipp, zwei seit Jahren begeisterte Camper, die ihre eigenen Camper schon individuell gestaltet haben. Da wir beide Kfz-Meister sind und auf jahrelange Berufserfahrung zurückblicken können, ist dein Camper bei uns in besten Händen!
-        <br/>
-        Da wir beide KFZ-Meister sind und auf Jahrelange Berufserfahrung zurückblicken können ist dein Camper bei uns in besten Händen!</p>
+        </p>
         </div>   
         </div>  
     </section>
