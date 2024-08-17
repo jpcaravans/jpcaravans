@@ -51,7 +51,7 @@ import Link from 'next/link';
         initial={{ opaticity: 0, scale: 0.5}} 
         animate={{opacity: 1, scale: 1}} 
         transition={{duration: 0.5}}  className='col-span-4 place-self-center lg:mt-0'>
-    <     div className='w-[320px] h-[250px] mt-12
+    <     div className='w-[320px] h-[250px] mt-14
             md:w-[280px] md:h-[400px] md:ml-12
             lg:w-[340px] lg:h-[400px] lg:ml-12
             xl:w-[420px] xl:h-[400px] 
