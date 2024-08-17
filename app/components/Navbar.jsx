@@ -14,7 +14,7 @@ const navLinks = [
   },
   {
     title: "Projekte",
-    path: "#web3onboarding",
+    path: "#projekte",
   },
   {
     title: "Kontakt",
