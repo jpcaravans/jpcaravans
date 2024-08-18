@@ -82,9 +82,9 @@ const EmailSection = () => {
               placeholder="Lass eine Nachricht hier..."
               />
           </div>
-          <button
+          {/*<button
           type="submit"
-          className='bg-orange-600 hover:bg-orange-700 text-white fon-medium py-2.5 px-5 rounded-lg w-full '>Absenden!</button>
+          className='bg-orange-600 hover:bg-orange-700 text-white fon-medium py-2.5 px-5 rounded-lg w-full '>Absenden!</button>*/}
           {
             emailSubmitted && (<p className='text-green-500 text-sm mt-2'>Email erfolgreich übermittelt!</p>)
           }
