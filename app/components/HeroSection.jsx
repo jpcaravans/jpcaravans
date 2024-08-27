@@ -33,7 +33,7 @@ import Link from 'next/link';
       />
       </h1>
         <p className='text-[#ADB7BE] text-base sm:text-lg md:text-xl lg:text-xl mb-6'>
-        Zuverlässige Partner für deine Anforderungen</p></>
+        Zuverlässige Test-Partner für deine Anforderungen</p></>
             <div>
               <Link href="/#kontakt">
               <button   className='px-6 py-2.5 w-full rounded-full sm:w-fit mr-4 bg-gradient-to-r from-red-500 to-orange-500 hover:bg-slate-200 text-white mb-4'>
@@ -57,7 +57,7 @@ import Link from 'next/link';
             xl:w-[420px] xl:h-[400px] 
             relative'>
             <Image
-             src="https://firebasestorage.googleapis.com/v0/b/login-page-b381a.appspot.com/o/logo1.png?alt=media&token=62b6063c-29a8-4c4b-8625-a37c791c082d"
+             src="https://firebasestorage.googleapis.com/v0/b/login-page-b381a.appspot.com/o/logo1.png?alt=media&token=727c3ff4-0859-4b2f-8abf-39b00204def3"
              className="absolute rounded-3xl transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
              width={500}
              height={500}
