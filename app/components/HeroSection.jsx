@@ -33,7 +33,7 @@ import Link from 'next/link';
       />
       </h1>
         <p className='text-[#ADB7BE] text-base sm:text-lg md:text-xl lg:text-xl mb-6'>
-        Zuverlässige Test-Partner für deine Anforderungen</p></>
+        Zuverlässige Partner für deine Anforderungen</p></>
             <div>
               <Link href="/#kontakt">
               <button   className='px-6 py-2.5 w-full rounded-full sm:w-fit mr-4 bg-gradient-to-r from-red-500 to-orange-500 hover:bg-slate-200 text-white mb-4'>
