@@ -1,9 +1,19 @@
 "use client"
 
+import Head from 'next/head';
+
 
 function AboutSection() {
   
    return (
+    <>
+    <Head>
+        <meta
+          content="Herzlich Willkommen bei JP Caravans! 
+          Wir sind dein Partner im Bereich des autarken Campens und weiterem Zubehör für deinen Wohnwagen, Wohnmobil oder Van in der Region Gifhorn, Wolfsburg und Braunschweig."
+        />     
+        <title>JP Caravans dein Profi für Nachrüstungen von Movern Solaranlagen und mehr</title>
+      </Head>
     <section className="flex justify-center text-white xl:pb-20" id="about">
     <div className="gap-8 flex items-center justify-center px-4
     lg:w-[850px] lg:h-[450px]
@@ -23,6 +33,7 @@ function AboutSection() {
         </div>   
         </div>  
     </section>
+    </>
   )
 }
 
