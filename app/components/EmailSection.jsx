@@ -44,52 +44,6 @@ const EmailSection = () => {
       
       
       </div>
-      <div>
-        <form className='flex flex-col xl:pt-16 xl:pr-11' onSubmit={handleSubmit}>
-          <div className='mb-6'>
-          <label htmlFor="email" type="email" className='text-white mb-2 block text-sm font-medium'>Mail</label>
-          <input 
-          name="email"
-          type="email" 
-          id="email" 
-          required 
-          placeholder="max-mustermann@gmail.com"
-          className='bg-[#2d2e30] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'
-          />
-          </div>
-          <div className='mb-6'>
-          <label htmlFor="subject" type="email" className='text-white block text-sm mb-2 font-medium'>Titel</label>
-          <input 
-          name="subject"
-          type="text" 
-          id="subject" 
-          required 
-          placeholder="Kurzbeschreibung..."
-          className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'
-          />
-          </div>
-          <div className='mb-6'>
-            <label
-            htmlFor="message"
-            className='text-white block text-sm mb-2 font-medium'
-            >
-              Nachricht
-            </label>
-            <textarea
-              name="message"
-              id="message"
-              className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'
-              placeholder="Lass eine Nachricht hier..."
-              />
-          </div>
-          {/*<button
-          type="submit"
-          className='bg-orange-600 hover:bg-orange-700 text-white fon-medium py-2.5 px-5 rounded-lg w-full '>Absenden!</button>*/}
-          {
-            emailSubmitted && (<p className='text-green-500 text-sm mt-2'>Email erfolgreich übermittelt!</p>)
-          }
-        </form>
-      </div>
     </section>
   )
 }

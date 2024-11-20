@@ -18,21 +18,7 @@ const projectsData = [
     description: "Nachrüstung Mover für deinen Camper",
     image: '/images/projects/mover.jpg',
     tag: ["Alle", "Camper"],
-  },
-  {
-    id: 3,
-   title: "Dämmung",
-    description: "Wir dämmen deinen Van nach höchstem Standart",
-    image: '/images/projects/daemmung.png',
-    tag: ["Alle", "Van"],
-  },
-  {
-    id: 4,
-   title: "Ausbau",
-    description: "Wir bauen dir deinen Camper nach deinen Wünschen aus",
-    image: '/images/projects/ausbau.png',
-    tag: ["Alle", "Van"],
-  },
+  }
 ];
 
 const ProjectsSection = () => {
@@ -67,10 +53,6 @@ return (
            <ProjectTag onClick={handleTagChange} 
           name="Camper" 
           isSelected={tag === "Camper"} 
-          />
-          <ProjectTag onClick={handleTagChange} 
-          name="Van" 
-          isSelected={tag === "Van"} 
           />
         </div>
         <ul ref={ref} className="md:w-[680px] lg:w-[940px] xl:w-[1250px] pt-4 grid md:grid-cols-3 gap-8 md:gap-12 xl:ml-20">
