@@ -16,7 +16,7 @@ function Inhalt() {
       E-Mail: jpcaravans@web.de</p><br />
 
       <div className="text-xl">Redaktionell verantwortlich:</div><br />
-      <p>Philipp Guschl</p><br />
+      <p>Julian Bukowski</p><br />
 
       <div className="text-xl">EU-Streitbeilegung:</div><br />
       <div>Die Europäische Kommission bietet eine Plattform für die Online-Streitbeilegung (OS): https://ec.europa.eu/consumers/odr</div>
