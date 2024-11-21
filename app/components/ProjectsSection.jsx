@@ -12,13 +12,13 @@ const projectsData = [
     image: '/images/projects/solar.jpg',
     tag: ["Alle", "Camper"],
   },
-  {
+  /*{
     id: 2,
     title: "Mover",
     description: "Nachrüstung Mover für deinen Camper",
     image: '/images/projects/mover.jpg',
     tag: ["Alle", "Camper"],
-  }
+  }*/
 ];
 
 const ProjectsSection = () => {
