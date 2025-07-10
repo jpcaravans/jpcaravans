@@ -28,7 +28,7 @@ function AboutSection() {
         Mit uns erschaffst du deinen ganz persönlichen Campertraum. Ob du einen Mover nachgerüstet haben möchtest oder dein Camper komplett autark werden soll – bei uns erhältst du alles, was du für deinen Caravan brauchst!
         <br/>
         <br/>
-        Wir, das sind Julian und Philipp, zwei seit Jahren begeisterte Camper, die ihre eigenen Camper schon individuell gestaltet haben. Da wir beide Kfz-Meister sind und auf jahrelange Berufserfahrung zurückblicken können, ist dein Camper bei uns in besten Händen!
+        Wir, das sind Julian und Partner, seit Jahren begeisterte Camper, die ihre eigenen Camper schon individuell gestaltet haben. Da wir beide Kfz-Meister sind und auf jahrelange Berufserfahrung zurückblicken können, ist dein Camper bei uns in besten Händen!
         </p>
         </div>   
         </div>  

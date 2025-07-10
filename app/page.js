@@ -21,11 +21,11 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-[#121212]">
       <Navbar />
       <div className='container mt-24 mx-auto px-12 py-4'>
-      <HeroSection />
-      <AchievementsSection />
-      <AboutSection />
-      <ProjectsSection />
-      <EmailSection />
+      {/* <HeroSection /> */}
+      {/* <AchievementsSection /> */}
+      {/* <AboutSection /> */}
+      {/* <ProjectsSection /> */}
+      {/* <EmailSection /> */}
       </div>
       <Footer />
       
