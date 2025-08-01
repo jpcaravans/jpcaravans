@@ -10,15 +10,78 @@ const projectsData = [
     title: "Solaranlage",
     description: "Nachrüstung einer Solaranlage auf deinem Dach",
     image: '/images/projects/solar.jpg',
-    tag: ["Alle", "Camper"],
+    tag: ["Alle"],
   },
-  /*{
+  {
     id: 2,
-    title: "Mover",
-    description: "Nachrüstung Mover für deinen Camper",
-    image: '/images/projects/mover.jpg',
-    tag: ["Alle", "Camper"],
-  }*/
+    title: "Rangierhilfe Mover", 
+    description: "Professionelle Nachrüstung eines Rangiersystems für müheloses Manövrieren",
+    image: '/images/projects/mover.png',
+    tag: ["Alle"],
+  },
+  {
+    id: 3,
+    title: "Anhängerkupplung",
+    description: "Fachgerechte Installation einer hochwertigen Anhängerkupplung",
+    image: '/images/projects/anhaengerkupplung.png',
+    tag: ["Alle"],
+  },
+  {
+    id: 4,
+    title: "Batteriesystem",
+    description: "Upgrade auf moderne Lithium-Batterien für längere Autonomie", 
+    image: '/images/projects/batterie.png',
+    tag: ["Alle"],
+  },
+  {
+    id: 5,
+    title: "Dachfenster",
+    description: "Einbau von Dachfenstern für mehr Licht und Belüftung",
+    image: '/images/projects/dachfenster.png',
+    tag: ["Alle"],
+  },
+  {
+    id: 6,
+    title: "Dachluke",
+    description: "Installation einer praktischen Dachluke mit Fliegengitter",
+    image: '/images/projects/dachluke.png',
+    tag: ["Alle"],
+  },
+  {
+    id: 7,
+    title: "Fahrradträger",
+    description: "Montage von robusten Fahrradträgern für Ihre Mobilität",
+    image: '/images/projects/fahrradtraeger.png',
+    tag: ["Alle"],
+  },
+  {
+    id: 8,
+    title: "Gasanlage",
+    description: "Wartung und Erweiterung Ihrer Gasinstallation nach aktuellen Standards",
+    image: '/images/projects/gasleitung.png',
+    tag: ["Alle"],
+  },
+  {
+    id: 9,
+    title: "Klimaanlage",
+    description: "Installation einer effizienten Klimaanlage für optimalen Komfort",
+    image: '/images/projects/klima.png',
+    tag: ["Alle"],
+  },
+  {
+    id: 10,
+    title: "Radioanlage",
+    description: "Moderne Multimedia-Systeme für Entertainment unterwegs",
+    image: '/images/projects/radio.png',
+    tag: ["Alle"],
+  },
+  {
+    id: 11,
+    title: "Schlingerkupplung",
+    description: "Sicherheitsupgrade mit professioneller Schlingerkupplung",
+    image: '/images/projects/schlingerkupplung.png',
+    tag: ["Alle"],
+  }
 ];
 
 const ProjectsSection = () => {
@@ -50,12 +113,8 @@ return (
           name="Alle" 
           isSelected={tag === "Alle"} 
           />
-           <ProjectTag onClick={handleTagChange} 
-          name="Camper" 
-          isSelected={tag === "Camper"} 
-          />
         </div>
-        <ul ref={ref} className="md:w-[680px] lg:w-[940px] xl:w-[1250px] pt-4 grid md:grid-cols-3 gap-8 md:gap-12 xl:ml-20">
+        <ul ref={ref} className="w-full max-w-7xl mx-auto px-6 pt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 md:gap-10 lg:gap-12">
           {filteredProjects.map((project, index) => (
           <motion.li 
           key={index}

@@ -11,8 +11,8 @@ const achievementsList = [
    
   },
   {
-    metric: "Meisterbriefe",
-    value: "2",
+    metric: "Meisterbrief",
+    value: "1",
     
     
   },
