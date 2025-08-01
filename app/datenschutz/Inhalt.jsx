@@ -55,10 +55,10 @@ function Inhalt() {
       <p>Wir weisen darauf hin, dass die Daten&uuml;bertragung im Internet (z.&nbsp;B. bei der Kommunikation per E-Mail) Sicherheitsl&uuml;cken aufweisen kann.<br /> Ein l&uuml;ckenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht m&ouml;glich.</p><br />
       
       <div className="text-decoration-line: underline">Hinweis zur verantwortlichen Stelle</div> 
-      <p>Die verantwortliche Stelle f&uuml;r die Datenverarbeitung auf dieser Website ist:</p> <p>Philipp Guschl<br />
-      38550 Isenb&uuml;ttel<br />
-      Glockwiesen 2</p>
-      <p>Telefon: 015224396810<br />
+      <p>Die verantwortliche Stelle f&uuml;r die Datenverarbeitung auf dieser Website ist:</p> <p>Julian Bukowski<br />
+      Vor dem Berge 31<br />
+      38524 Dannenbüttel</p>
+      <p>Telefon: 0160 - 92433546<br />
       E-Mail: jpcaravans@web.de</p><br />
       <p>Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person, die allein oder gemeinsam mit anderen &uuml;ber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten<br /> (z.&nbsp;B. Namen, E-Mail-Adressen o. &Auml;.) entscheidet.</p><br />
       
